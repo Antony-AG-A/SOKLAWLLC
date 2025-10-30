@@ -38,7 +38,7 @@ const Navbar = () => {
   const navLinks = [
     { href: '#home', label: 'Home' },
     { href: '#about', label: 'About' },
-    { href: '#services', label: 'Services' },
+    { href: '#services', label: 'Legal Services' },
     { href: '#team', label: 'Team' },
     { href: '#news', label: 'News' },
     { href: '#contact', label: 'Contact' },
