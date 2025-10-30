@@ -50,8 +50,8 @@ const BlogPostPage = () => {
         setLoading(true);
         setError(null);
         
-        const ghostApiUrl = 'https://xelf.ghost.io/ghost/api/v3/content/posts/slug';
-        const apiKey = '367cdb8a8abe78fe688f751c76';
+        const ghostApiUrl = 'https://xelf-company.ghost.io/ghost/api/v3/content/posts/slug';
+        const apiKey = '8a9c761335b32bd9a488fc182b';
         const params = new URLSearchParams({
           key: apiKey,
           include: 'tags,authors',
