@@ -11,7 +11,8 @@ import {
   Newspaper,
   X,
   ArrowRight,
-  Clock
+  Clock,
+  MessageCircle
 } from 'lucide-react';
 
 const Footer = () => {
@@ -34,10 +35,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Instagram, href: '#', label: 'Instagram' }
+    { icon: Facebook, href: 'https://facebook.com/soklaw', label: 'Facebook' },
+    { icon: Twitter, href: 'https://twitter.com/soklaw', label: 'Twitter' },
+    { icon: Linkedin, href: 'https://linkedin.com/company/soklaw', label: 'LinkedIn' },
+    { icon: Instagram, href: 'https://instagram.com/soklaw', label: 'Instagram' }
   ];
 
   const scrollToSection = (href) => {
@@ -78,6 +79,8 @@ const Footer = () => {
                   <a
                     key={i}
                     href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     aria-label={item.label}
                     title={item.label}
                     className="p-2 bg-[#eae7df] hover:bg-[#bfa06f] text-[#1e1e1e] rounded-full transition duration-300"

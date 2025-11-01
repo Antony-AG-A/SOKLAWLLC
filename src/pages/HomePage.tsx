@@ -8,6 +8,8 @@ import TrackRecord from '../components/TrackRecord';
 import News from '../components/News';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import WhatsAppButton from '../components/WhatsAppButton';
+import CSRPreview from '../components/CSRPreview';
 
 const HomePage = () => {
   return (
@@ -18,9 +20,11 @@ const HomePage = () => {
       <Services />
       <Team />
       <TrackRecord />
+      <CSRPreview />
       <News />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </>
   );
 };
