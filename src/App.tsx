@@ -5,6 +5,9 @@ import ServicesPage from './pages/ServicesPage';
 import ServiceDetailPage from './pages/ServiceDetailPage';
 import TeamPage from './pages/TeamPage';
 import BlogPostPage from './pages/BlogPostPage';
+import ConsultancyPage from './pages/ConsultancyPage';
+import CSRPage from './pages/CSRPage';
+import NewsPage from './pages/NewsPage';
 
 function App() {
   return (
@@ -16,6 +19,11 @@ function App() {
         <Route path="/team" element={<TeamPage />} />
         <Route path="/blog/:postId" element={<BlogPostPage />} />
         <Route path="/blog" element={<HomePage />} />
+        <Route path="/consultancy" element={<ConsultancyPage />} />
+        <Route path="/consultancy/:consultancyId" element={<ConsultancyPage />} />
+        <Route path="/csr" element={<CSRPage />} />
+        <Route path="/news" element={<NewsPage />} />
+        <Route path="/news/:newsType" element={<NewsPage />} />
       </Routes>
     </div>
   );
